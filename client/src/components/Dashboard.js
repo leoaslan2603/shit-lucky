@@ -17,7 +17,7 @@ const Dashboard = () => {
         updateOnlineStatus(user.id, true).then(r => {
             console.log(r)
         })
-    }, [socket, user.id])
+    }, [user.id])
 
     const handleUserUpdate = useCallback((action) => {
         if (action === 'online') {
