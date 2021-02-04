@@ -187,7 +187,7 @@ func main() {
 
 	listen.WriteString(getEnv("APP_HOST", "0.0.0.0"))
 	listen.WriteString(":")
-	listen.WriteString(getEnv("APP_PORT", "8888"))
+	listen.WriteString(getEnv("APP_PORT", "80"))
 
 	r := setupRouter()
 
