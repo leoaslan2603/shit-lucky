@@ -1,0 +1,6 @@
+---
+development:
+  dialect: mysql
+  database: shit-lucky
+  user: root
+  password: 123456

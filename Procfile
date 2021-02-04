@@ -1,1 +1,1 @@
-web: server/main
+web: bin/main
