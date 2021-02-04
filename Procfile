@@ -1,1 +1,1 @@
-web: sh -c 'cd ./server/ && exec ./main'
+web: sh -c 'cd ./server/ && exec main'
