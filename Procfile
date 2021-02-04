@@ -1,1 +1,1 @@
-web: go run server/main.go
+web:sh -c 'cd ./server/ && exec ./main'
